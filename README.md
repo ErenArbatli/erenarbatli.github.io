@@ -8,6 +8,8 @@ Four static HTML pages share `assets/site.css`. No installation or build step is
 
 - **Biography and contact details:** edit `index.html`.
 - **Research:** edit `research/index.html`. Each paper is an `<li class="paper">` with its title, coauthors, citation, and optional working-paper link. Copy a nearby entry when adding a paper. Keep its `id` unique so links to individual papers continue to work. If changing a selected paper, also update its short listing on the home page.
+- **Abstracts:** each completed paper has a native `<details class="paper-abstract">` section. Edit the paragraph inside `.abstract-body` and retain the source comment when updating the text. The Abstract control works without JavaScript. Projects without a verified abstract and the book review do not have a control.
+- **Affiliations and social profiles:** edit the Research affiliations section and Social profiles navigation on the home page. Keep the affiliations on the CV page consistent.
 - **Teaching:** edit `teaching/index.html`. Courses are grouped by institution and degree level.
 - **Career summary:** edit `cv/index.html`. Update the date under the download button when replacing the PDF.
 - **Downloadable CV:** replace `assets/files/eren-arbatli-cv.pdf` with the updated public PDF using the same filename. Review the PDF before uploading; omit date of birth and citizenship. Keep the original Word document outside this repository.
@@ -28,3 +30,9 @@ Publication titles, dates, coauthors, and review statuses follow the CV provided
 The portrait was supplied by Eren Arbatlı and taken at the Durham Development Economics Workshop 2026. This repository includes optimized website copies only.
 
 The site uses system fonts and no external scripts. All content is present in HTML and works without JavaScript.
+
+External web pages and document links open in a new tab; navigation within this website and email links retain their normal behavior. The two Durham working-paper downloads are labeled “Durham working paper”; their paper titles link to SSRN.
+
+Abstracts follow publisher-deposited metadata, institutional repositories, or author-posted drafts, as identified in the HTML source comments. The Far from Home abstract comes from the author manuscript dated 26 October 2026; the manuscript itself is not published here.
+
+Social platform icons are from [Font Awesome Free](https://fontawesome.com/), used under CC BY 4.0. Their original notices and license are retained in `assets/icons/`.
