@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://erenarbatli.github.io/sitemap.xml
