@@ -1,0 +1,31 @@
+LITERATURE DISCOVERY: INTERFACE IMAGE AND ICON CREDITS
+Prepared 8 November 2026 for Practice in Economic Research.
+
+zotero-note-menu.png
+  Unmodified interface illustration from Zotero's official documentation.
+  Source page: https://www.zotero.org/support/pdf_reader
+  Original: https://www.zotero.org/static/images/blog/6.0/add-note-from-annotations.png
+  Copyright and product marks remain with Zotero / Digital Scholar.
+  The documentation's illustration may show an earlier visual version.
+
+researchrabbit-search.png
+  Unmodified annotated interface illustration from ResearchRabbit's official guide.
+  Source: https://learn.researchrabbit.ai/en/articles/12454528-how-to-search-in-researchrabbit
+  Image: "Search Anatomy (2).png" in that article.
+  Copyright and product marks remain with ResearchRabbit.
+  The image contains the vendor's example papers, not a Mariel search.
+
+ideas-search.png
+  Screenshot of the public IDEAS search form, captured 8 November 2026.
+  Source: https://ideas.repec.org/search.html
+  Site content and product marks remain with IDEAS/RePEc and their owners.
+
+copy.svg and rotate-ccw.svg
+  Lucide icons, lucide-static version 0.468.0.
+  https://lucide.dev/
+  https://unpkg.com/lucide-static@0.468.0/
+  ISC license; see lucide-LICENSE.txt in this directory.
+
+These images identify interface controls for educational walkthroughs.
+They do not imply endorsement by or affiliation with the tool providers.
+Research paper PDFs are linked to their sources and are not hosted here.

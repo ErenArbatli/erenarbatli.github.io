@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Searching Economics Literature | Literature Discovery</title>
+  <meta name="description" content="A short, practical guide to complementary searches with Google Scholar, IDEAS/RePEc and EconLit.">
+  <meta name="robots" content="noindex, noarchive">
+  <link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/guides.css">
+  <script defer src="../assets/guides.js"></script>
+</head>
+<body data-guide="searching">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell">
+    <header class="masthead"><a class="author" href="../../../index.html">Eren Arbatl&#305;</a><span class="module">Practice in Economic Research &middot; Durham University</span></header>
+    <nav class="guide-nav" aria-label="Literature guides"><a href="../index.html">Overview</a><a href="../zotero/index.html">Zotero</a><a href="index.html" aria-current="page">Economics searches</a><a href="../researchrabbit/index.html">ResearchRabbit</a><a href="../elicit/index.html">Elicit</a></nav>
+    <main id="main" tabindex="-1">
+      <div class="intro"><p class="eyebrow">Guide 02 / Search deliberately</p><h1>Searching economics literature</h1><p class="lead">Turn a question into a few useful searches, then keep a record of why a paper belongs on your list.</p><p class="meta"><span>6 steps</span><span>Scholar + IDEAS: public search</span><span>EconLit: university access</span></p></div>
+      <div class="guide-layout">
+        <article aria-label="Economics literature search walkthrough">
+          <ol class="steps">
+            <li class="step" id="translate">
+              <h2>Translate your question into search terms</h2>
+              <dl class="io"><div><dt>Input</dt><dd>&ldquo;How does an immigration inflow affect local workers' wages?&rdquo;</dd></div><div><dt>Action</dt><dd>Separate the event, outcome and setting. Add a synonym for each: <strong>immigration / refugees</strong>; <strong>wages / employment</strong>; <strong>local labour markets / cities</strong>.</dd></div><div><dt>Output</dt><dd class="output">Two or three formulations, not one enormous query.</dd></div></dl>
+              <p class="small">Also search the mechanism or method: for example, <em>labour supply shocks</em> or <em>synthetic control immigration</em>. Related work may use different words.</p>
+              <label class="complete"><input id="s-1" type="checkbox" data-step-check> I have a question and alternative search terms.</label>
+            </li>
+            <li class="step" id="services">
+              <h2>Choose a route, then cross-check another</h2>
+              <p>Start with one service. Use another to check coverage or find a working-paper version; do not repeat an exhaustive search three times.</p>
+              <div data-tabs>
+                <nav class="tab-list" aria-label="Search services"><a href="#scholar">Google Scholar</a><a href="#ideas">IDEAS/RePEc</a><a href="#econlit">EconLit</a></nav>
+                <section class="tab-panel" id="scholar">
+                  <h3>Broad discovery and citing papers</h3>
+                  <p>Open <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar</a> and try this specific query:</p>
+                  <div class="copy-block"><div class="copy-bar"><span class="copy-label">Starting query</span><button class="icon-button" type="button" data-copy="scholar-query" data-tooltip="Copy query" aria-label="Copy Google Scholar query"><img src="../assets/copy.svg" alt=""></button></div><p class="copy-text" id="scholar-query" tabindex="0">"Mariel boatlift" wages</p><p class="copy-feedback" role="status"></p></div>
+                  <p class="small">Inspect <strong>Cited by</strong>, <strong>Related articles</strong> and <strong>All versions</strong>. Try a recent-year filter, but also keep foundational work. Library links or an author copy may provide access. <a href="https://scholar.google.com/intl/en/scholar/help.html" target="_blank" rel="noopener noreferrer">Official help</a>.</p>
+                </section>
+                <section class="tab-panel" id="ideas">
+                  <h3>Economics records and paper versions</h3>
+                  <p>Open <a href="https://ideas.repec.org/search.html" target="_blank" rel="noopener noreferrer">IDEAS/RePEc search</a>. It searches bibliographic records, not full paper text. Try:</p>
+                  <div class="copy-block"><div class="copy-bar"><span class="copy-label">IDEAS-specific Boolean syntax</span><button class="icon-button" type="button" data-copy="ideas-query" data-tooltip="Copy query" aria-label="Copy IDEAS query"><img src="../assets/copy.svg" alt=""></button></div><p class="copy-text" id="ideas-query" tabindex="0">(immigration | refugee) + wages</p><p class="copy-feedback" role="status"></p></div>
+                  <p class="small">Here <code>|</code> means OR and <code>+</code> means AND. Open a record and inspect <strong>Other versions</strong> and download links. Syntax differs from other services. <a href="https://ideas.repec.org/search.html" target="_blank" rel="noopener noreferrer">Search tips</a>.</p>
+                </section>
+                <section class="tab-panel" id="econlit">
+                  <h3>Economics-focused indexing and subjects</h3>
+                  <p>Open <a href="https://libguides.durham.ac.uk/az/databases" target="_blank" rel="noopener noreferrer">Durham Library's A&ndash;Z databases</a>, find <strong>EconLit</strong> and follow the university sign-in route. Use two advanced-search rows:</p>
+                  <div class="copy-block"><div class="copy-bar"><span class="copy-label">Two rows joined with AND</span><button class="icon-button" type="button" data-copy="econlit-query" data-tooltip="Copy search rows" aria-label="Copy EconLit search rows"><img src="../assets/copy.svg" alt=""></button></div><p class="copy-text" id="econlit-query" tabindex="0">Row 1: immigration OR refugees
+AND
+Row 2: wages OR employment</p><p class="copy-feedback" role="status"></p></div>
+                  <p class="small">Inspect subject terms in a useful record and reuse them. JEL subjects such as J61 (migration) and J31 (wages) offer another route; EconLit codes use an extra zero, such as J610. Platform controls vary. <a href="https://www.aeaweb.org/econlit/search-hints" target="_blank" rel="noopener noreferrer">AEA search hints</a>.</p>
+                </section>
+              </div>
+              <dl class="io"><div><dt>Output</dt><dd class="output">One useful search and a cross-check through a second route.</dd></div></dl>
+              <details><summary>Interface example: IDEAS search</summary><figure class="interface"><a href="../assets/ideas-search.png" target="_blank" rel="noopener noreferrer"><img src="../assets/ideas-search.png" width="1100" height="680" loading="lazy" alt="IDEAS search form showing a query field and controls for field, sort order and date range."></a><figcaption>Public search form, captured for this guide on 8 November 2026. <a href="https://ideas.repec.org/search.html" target="_blank" rel="noopener noreferrer">Open the original</a>.</figcaption></figure></details>
+              <label class="complete"><input id="s-2" type="checkbox" data-step-check> I have tried two complementary routes.</label>
+            </li>
+            <li class="step" id="seed">
+              <h2>Check one starting paper</h2>
+              <dl class="io"><div><dt>Input</dt><dd>A promising result, such as <a href="https://journals.sagepub.com/doi/10.1177/001979399004300205" target="_blank" rel="noopener noreferrer">Card (1990)</a>.</dd></div><div><dt>Action</dt><dd>Open the source, confirm the title and version, and read the abstract. Ask: same question, same mechanism, same method, or just a similar topic?</dd></div><div><dt>Output</dt><dd class="output">One seed paper with a reason for keeping it.</dd></div></dl>
+              <details><summary>Example inclusion reason</summary><p>&ldquo;Same event and outcome as my starting question. This is a direct predecessor, not just background on migration.&rdquo;</p><p class="small">This is an interpretation of relevance, supported by <a href="https://journals.sagepub.com/doi/10.1177/001979399004300205" target="_blank" rel="noopener noreferrer">Card's title and abstract</a>, not a full assessment of the paper's identification.</p></details>
+              <label class="complete"><input id="s-3" type="checkbox" data-step-check> I can say why the seed is relevant.</label>
+            </li>
+            <li class="step" id="chain">
+              <h2>Follow one link backwards and one forwards</h2>
+              <dl class="io"><div><dt>Input</dt><dd>Your seed's reference list and citing papers.</dd></div><div><dt>Action</dt><dd>Check one cited predecessor and one later study. As teaching examples, inspect <a href="https://www.hks.harvard.edu/publications/wage-impact-marielitos-reappraisal-0" target="_blank" rel="noopener noreferrer">Borjas (2017)</a> and <a href="https://doi.org/10.3368/jhr.54.2.0217.8561R1" target="_blank" rel="noopener noreferrer">Peri and Yasenov (2019)</a>. Record whether the connection concerns the question, sample, design or a conflicting finding.</dd></div><div><dt>Output</dt><dd class="output">Connections you can describe, rather than a longer undifferentiated list.</dd></div></dl>
+              <p class="small">These follow-ups are curated examples. They are not guaranteed to appear in a particular position in today's results.</p>
+              <label class="complete"><input id="s-4" type="checkbox" data-step-check> I have followed both citation directions.</label>
+            </li>
+            <li class="step" id="log">
+              <h2>Keep five candidates and a short log</h2>
+              <dl class="io"><div><dt>Input</dt><dd>Your queries and shortlisted sources.</dd></div><div><dt>Action</dt><dd>Use the <a href="../downloads/search-log.csv" download>search-log template</a>. Record the date, exact query, route, link, inclusion reason and reading depth. Note one plausible-looking exclusion too.</dd></div><div><dt>Output</dt><dd class="output">Five papers whose discovery trail you can reconstruct.</dd></div></dl>
+              <details><summary>What a log entry needs</summary><p class="small"><strong>Route:</strong> Scholar &middot; <strong>Query:</strong> &ldquo;Mariel boatlift&rdquo; wages &middot; <strong>Paper:</strong> Card (1990) &middot; <strong>Link:</strong> article DOI &middot; <strong>Reason:</strong> direct question &middot; <strong>Read:</strong> abstract &middot; <strong>Next:</strong> comparison-city construction. Add the actual search date; do not imply this example was a live search.</p></details>
+              <label class="complete"><input id="s-5" type="checkbox" data-step-check> I have a shortlist and a reproducible search log.</label>
+            </li>
+            <li class="step" id="your-project">
+              <h2>Apply the search to your own question</h2>
+              <dl class="io"><div><dt>Input</dt><dd>Your proposal's current question, however provisional.</dd></div><div><dt>Action</dt><dd>Run a topic query and a mechanism or method query. Check another service, select five papers, and mark the two closest for deeper reading.</dd></div><div><dt>Output</dt><dd class="output">A reading decision: what to read next, and what you need to learn from it.</dd></div></dl>
+              <label class="complete"><input id="s-6" type="checkbox" data-step-check> I have two reading priorities for my project.</label>
+            </li>
+          </ol>
+          <section class="finish"><h2>Stop here</h2><p>Read the two closest papers before expanding again. Few results do not prove novelty; many citations do not prove relevance.</p></section>
+          <nav class="next-guide" aria-label="Continue learning"><a href="../zotero/index.html">&#8592; Zotero</a><a href="../researchrabbit/index.html">Next: ResearchRabbit &#8594;</a></nav>
+        </article>
+        <aside aria-label="Guide checklist and resources">
+          <div class="aside-block"><div class="progress-line"><p class="progress-label" data-progress-label>Six practical steps</p><button class="icon-button" type="button" data-reset-progress data-tooltip="Reset progress" aria-label="Reset economics searches checklist"><img src="../assets/rotate-ccw.svg" alt=""></button></div><progress max="6" value="0" aria-label="Economics search steps complete"></progress><p class="progress-note">Only checklist ticks are saved in this browser. No work is submitted.</p></div>
+          <div class="aside-block contents"><h2>On this page</h2><ol><li><a href="#translate">Translate the question</a></li><li><a href="#services">Choose search routes</a></li><li><a href="#seed">Check a seed</a></li><li><a href="#chain">Trace citations</a></li><li><a href="#log">Keep a log</a></li><li><a href="#your-project">Use your question</a></li></ol></div>
+          <div class="aside-block"><h2>Access, briefly</h2><p>Scholar and IDEAS searches are public. Full texts may still require library access. EconLit is a subscription database; Durham provides a library route.</p><p><a href="https://libguides.durham.ac.uk/sb.php?subject_id=131122" target="_blank" rel="noopener noreferrer">Durham economics resources</a></p></div>
+        </aside>
+      </div>
+    </main>
+    <footer class="site-footer"><p>Practice in Economic Research &middot; 2026&ndash;27</p><p>Checked 8 November 2026 &middot; <a href="../assets/credits.txt">Image credits</a></p></footer>
+  </div>
+</body>
+</html>
